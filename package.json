@@ -1,0 +1,26 @@
+{
+  "name": "gitlab-flag-codegen",
+  "version": "0.1.0",
+  "description": "Reads GitLab feature flags from your project and generates TypeScript types for you",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gitlab",
+    "feature flag",
+    "flag",
+    "codegen",
+    "typescript"
+  ],
+  "author": "Sebastian Kasanzew",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "nodemon": "2.0.22",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4"
+  }
+}
